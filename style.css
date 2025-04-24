@@ -1,0 +1,142 @@
+.main{
+    background-color:black;
+    width: 100%;
+    height: 670px;
+    padding-top: 105px;
+}
+body{
+    margin: 0%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+.main-image{
+    width: 550px;
+    height: 550px;
+    float: left;
+    margin-left: 285px;
+    
+}
+.login-controls{
+    width: 350px;
+    height:550px;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    float: left;
+    margin-left: 81px;
+}
+.login-image{
+    width: 200px;
+    height: 52px;
+    overflow: hidden;
+    margin-left: 50px;
+}
+.user-input{
+    padding-left: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    background-color: rgb(18, 18, 18);
+    color: aliceblue;
+    width: 260px;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 4px;
+    border-color: antiquewhite;
+    text-align: left;
+}
+
+::placeholder{
+    opacity: 0.;
+    color: grey;
+}
+.button{
+    margin-top: 10px;
+    width: 260px;
+    height: 35px;
+    background-color: rgb(0, 149, 246);
+    border-radius: 8px;
+    border: 0cap;
+    color: rgb(240, 248, 255);
+    font-size: 13px;
+    font-weight: 550;
+    cursor: pointer;
+}
+.or{
+    font-size: medium;
+    color: rgb(88, 90, 72);
+    margin: 0 10px;
+    font-weight: 500;
+}
+.or-border{
+   flex: 1px;
+    border: none;
+    border-top: 1px solid rgb(37 39 22);
+}
+.or-main{
+    margin-top: 10px;
+    display: flex;
+    color: rgb(37 39 22);
+    align-items: center;
+}
+.facebook{
+    padding-top: 15px;
+    margin-left: 55px;
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+}
+.facebook-title{
+    color: rgb(0, 149, 246);
+    position: relative;
+  top: -5px;
+  right: -6px;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+}
+.password{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 14px;
+    font-size: 13.9px;
+    cursor: pointer;
+}
+.question{
+    padding-left: 38px;
+    padding-top: 58px;
+    color: aliceblue;
+    font-size: 14px;
+}
+.signup{
+    color:rgb(0, 149, 246); 
+    font-weight: 600;
+    cursor: pointer;
+}
+.getapp{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 45px;
+    font-size: 14px;
+}
+.playstore{
+    width: 135px;
+    height: 50px;
+}
+.footer{
+    height: 60px;
+    width: 100%;
+    float:  left;
+}
+.about td{ 
+    padding-left:  8px;
+    padding-top: 20px;
+    color: white;
+    font-size: 12.5px;
+    text-align: right;
+    
+}
+.center-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+.play-click{
+    cursor: pointer;
+}
